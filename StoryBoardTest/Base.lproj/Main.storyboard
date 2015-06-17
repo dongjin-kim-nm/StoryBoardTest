@@ -37,16 +37,30 @@
                                     <segue destination="xyI-NQ-dbX" kind="show" id="O3v-dj-XlS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4e-0n-RZN">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="B画面へ遷移">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="143" y="491" width="115" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Ket-Fr-1zz" kind="show" id="ob5-Yf-y6t"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="iIc-4i-sir"/>
+                                <exclude reference="s4e-0n-RZN"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="iIc-4i-sir"/>
+                                <include reference="s4e-0n-RZN"/>
                             </mask>
                         </variation>
                     </view>
@@ -94,7 +108,45 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EpT-HA-cR5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1143" y="295"/>
+            <point key="canvasLocation" x="1176" y="-183"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fEc-aM-JXN">
+            <objects>
+                <viewController id="Ket-Fr-1zz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="htN-jn-lqX"/>
+                        <viewControllerLayoutGuide type="bottom" id="Vdx-gZ-56j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jJ9-oY-MG9">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1l-kn-FU8">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="B画面">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="63" y="186" width="115" height="30"/>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="e1l-kn-FU8"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="e1l-kn-FU8"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IpP-vh-Zms" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1176" y="497"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8Cz-ai-8Wo">
